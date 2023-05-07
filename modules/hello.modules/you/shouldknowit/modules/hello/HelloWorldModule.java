@@ -1,6 +1,6 @@
 package you.shouldknowit.modules.hello;
 
-public class HelloModules {
+public class HelloWorldModule {
     public static void sayHelloWorld() {
         System.out.println("Hello, Modules!");
     }
