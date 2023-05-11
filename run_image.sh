@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-./build/
+./build/image/bin/HelloWorld
