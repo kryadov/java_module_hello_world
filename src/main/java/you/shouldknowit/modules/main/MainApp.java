@@ -11,7 +11,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainApp {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
+        System.out.println("Starting ...");
+        Thread.sleep(5000);
         var l = new JndiLookup();
         try {
             System.out.printf("JndiLookup: %s\n", l.lookup("a"));
